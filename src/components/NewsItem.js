@@ -15,8 +15,6 @@ const NewsItem = ({ title, description, image, url }) => {
         alt="News"
         style={{
           width: '100%',
-          height: '180px',
-          objectFit: 'cover'
         }}
       />
 
