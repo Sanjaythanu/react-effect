@@ -14,7 +14,6 @@ function App() {
       {/* Buttons to change the category */}
       <button onClick={()=> setCategory("general")}>General</button>
       <button onClick={()=> setCategory("technology")}>Technology</button>
-      <button onClick={()=> setCategory("sports")}>Sports</button>
       {/* Passing the category to News */}
       <News category={category}/>
     </div>
